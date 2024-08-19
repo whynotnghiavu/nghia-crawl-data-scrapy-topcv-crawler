@@ -1,0 +1,5 @@
+python-dotenv 
+mysql-connector-python
+scrapy
+scrapy-user-agents
+# scrapy-rotating-proxies
