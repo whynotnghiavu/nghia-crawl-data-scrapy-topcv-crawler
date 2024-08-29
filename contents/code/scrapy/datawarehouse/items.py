@@ -11,7 +11,7 @@ from .format import remove_text
 from .format import convert_html_to_list_string
 
 
-class TopCVItem(scrapy.Item): 
+class TopCVItem(scrapy.Item):
     source = scrapy.Field(
         output_processor=TakeFirst()
     )

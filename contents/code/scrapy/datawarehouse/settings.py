@@ -93,11 +93,6 @@ TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
 
 
-
-
-
-
-
 # # Thêm thông tin logging
 # LOG_ENABLED = True
 # LOG_FILE = 'datawarehouse.log'
@@ -150,5 +145,3 @@ DOWNLOADER_MIDDLEWARES = {
 ITEM_PIPELINES = {
     'datawarehouse.pipelines.TopCVPipeline': 3
 }
-
-

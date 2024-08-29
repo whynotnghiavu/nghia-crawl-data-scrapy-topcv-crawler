@@ -16,8 +16,6 @@ def remove_newline(text):
     text = ", ".join(text)
     return text
 
- 
-
 
 def remove_text(text_to_remove):
     def remove_func(text):
@@ -37,7 +35,7 @@ def convert_html_to_list_string(text):
     all_texts = all_texts.split("\n")
     all_texts = [i.strip() for i in all_texts if i.strip()]
 
-    if (all_texts==""):
+    if (all_texts == ""):
         all_texts = text
 
     return json.dumps(all_texts, ensure_ascii=False)
